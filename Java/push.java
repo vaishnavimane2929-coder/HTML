@@ -1,6 +1,6 @@
-class push{
-	public satic void main(String []args){
+class push {
+	public static void main(String[] args) {
 		System.out.println("hiiii");
 	}
-	
-	}
+
+}
