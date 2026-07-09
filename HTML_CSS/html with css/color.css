@@ -1,0 +1,19 @@
+section{
+    height: 300px;
+    width:300px;
+    background-color: chartreuse;
+    /*by name we can give BG color*/
+    background-color: aquamarine;
+    /*hexa format we can give color*/
+    background-color: #55aa55;
+    /*by RGB format*/
+    background-color: rgb(216, 216, 68);
+    /*by rgba*/
+    background-color: rgba(0,0,255,0.4);
+    /*by hsl it is for graphics purpose*/
+    background-color: hsl(2px, 2px, 2px);
+
+    text-align: center;
+    text-decoration: dotted;
+    text-transform: capitalize;
+}
