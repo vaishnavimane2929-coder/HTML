@@ -1,3 +1,5 @@
+//desing a program to find a strong number using factorial and sum of digit logic together
+
 class StrongNumber{
 	public static int isfactorial(int num){
 	int fact=1;
@@ -16,9 +18,7 @@ class StrongNumber{
 	return sum;
 	}
 	public static void main(String[]args){
-		System.out.println(isfactorial(5));
-		int res=isfactorial(7);
-		System.out.println(res-isfactorial(5));
+		
 		System.out.println(SumOfDigit(123));
 		
 		

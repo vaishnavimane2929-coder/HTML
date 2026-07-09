@@ -1,3 +1,4 @@
+//program for adding the digits of number entered
 class DigitSum{
 	
 	public static int SumOfDigit(int num){
@@ -10,7 +11,7 @@ class DigitSum{
 	return sum;
 	}
 	public static void main(String[]args){
-		//stem.out.println(SumOfDigit(123));
+		System.out.println(SumOfDigit(123));
 		int res=SumOfDigit(123);
 		System.out.println(res);
 	}

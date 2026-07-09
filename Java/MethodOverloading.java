@@ -8,7 +8,6 @@ class MethodOverloading{
 		userDetails();
 		System.out.println("****************************************************");
 
-
 	
 	}
 	public static void userDetails(String name,long contact,String mail,int pincode){
