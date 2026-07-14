@@ -1,0 +1,104 @@
+9}   select max(sal),deptno
+  2  from emp
+  3  group by deptno;
+
+  MAX(SAL)     DEPTNO
+---------- ----------
+      2850         30
+      3000         20
+      5000         10
+
+
+SQL> 8} select count(*),max(sal),job
+  2  from emp
+  3  group by job;
+
+  COUNT(*)   MAX(SAL) JOB
+---------- ---------- ---------
+         4       1300 CLERK
+         4       1600 SALESMAN
+         1       5000 PRESIDENT
+         3       2975 MANAGER
+         2       3000 ANALYST
+
+
+
+SQL> 7}select sum(sal),deptno,count(*)
+  2  from emp
+  3  where job='SALESMAN'
+  4  group by deptno;
+
+  SUM(SAL)     DEPTNO   COUNT(*)
+---------- ---------- ----------
+      5600         30          4
+
+
+
+SQL> 6} select count(*),avg(sal),deptno
+  2  from emp
+  3  where sal>2000
+  4  group by deptno;
+
+  COUNT(*)   AVG(SAL)     DEPTNO
+---------- ---------- ----------
+         1       2850         30
+         3 2991.66667         20
+         2       3725         10
+
+SQL> 5} select count(*) AS employees_having_A_in_names,job
+  2  from emp
+  3  where ename like '%A%'
+  4  group by job;
+
+EMPLOYEES_HAVING_A_IN_NAMES JOB
+--------------------------- ---------
+                          3 SALESMAN
+                          2 CLERK
+                          2 MANAGER
+
+SQL 4} > select avg(sal) AS Avarage_sal,deptno
+  2  from emp
+  3  where deptno!=20
+  4  group by deptno;
+
+AVARAGE_SAL     DEPTNO
+----------- ----------
+ 1566.66667         30
+ 2916.66667         10
+
+SQL> 9} select max(sal),deptno
+  2  from emp
+  3  group by deptno;
+
+  MAX(SAL)     DEPTNO
+---------- ----------
+      2850         30
+      3000         20
+      5000         10
+
+SQL> 10} select sal,count(*)
+  2  from emp
+  3  group by sal;
+
+       SAL   COUNT(*)
+---------- ----------
+      2450          1
+      5000          1
+      1300          1
+      1250          2
+      2850          1
+      2975          1
+      1100          1
+      3000          2
+       800          1
+      1600          1
+      1500          1
+
+       SAL   COUNT(*)
+---------- ----------
+       950          1
+
+12 rows selected.
+
+
+
