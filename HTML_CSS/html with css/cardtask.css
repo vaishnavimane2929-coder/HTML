@@ -1,0 +1,719 @@
+.container{
+    width:1200px;
+    margin:auto;
+}
+
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10{
+    width:160px;
+    padding:10px;
+    margin:15px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+/* Card 1 */
+
+.card1{
+    border:2px solid red;
+    border-radius:10px;
+    box-shadow:0 0 10px 4px pink;
+}
+
+.card1 h1{
+    text-align:center;
+    color:red;
+    text-shadow:1px 1px 2px black;
+}
+
+.card1 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card1 button{
+    margin-left:45px;
+}
+
+
+/* Card 2 */
+
+.card2{
+    border:2px dashed green;
+    border-radius:20px;
+    box-shadow:0 0 10px 4px lightgreen;
+}
+
+.card2 h1{
+    text-align:center;
+    color:green;
+    text-shadow:1px 1px 2px black;
+}
+
+.card2 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card2 button{
+    margin-left:45px;
+}
+
+
+/* Card 3 */
+
+.card3{
+    border:2px dotted blue;
+    border-radius:5px;
+    box-shadow:0 0 10px 4px skyblue;
+}
+
+.card3 h1{
+    text-align:center;
+    color:blue;
+    text-shadow:1px 1px 2px black;
+}
+
+.card3 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card3 button{
+    margin-left:45px;
+}
+
+
+/* Card 4 */
+
+.card4{
+    border:2px solid brown;
+    border-radius:15px;
+    box-shadow:0 0 10px 4px burlywood;
+}
+
+.card4 h1{
+    text-align:center;
+    color:brown;
+    text-shadow:1px 1px 2px black;
+}
+
+.card4 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card4 button{
+    margin-left:45px;
+}
+
+
+/* Card 5 */
+
+.card5{
+    border:2px dashed purple;
+    border-radius:25px;
+    box-shadow:0 0 10px 4px violet;
+}
+
+.card5 h1{
+    text-align:center;
+    color:purple;
+    text-shadow:1px 1px 2px black;
+}
+
+.card5 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card5 button{
+    margin-left:45px;
+}
+
+
+/* Card 6 */
+
+.card6{
+    border:2px solid orange;
+    border-radius:8px;
+    box-shadow:0 0 10px 4px orange;
+}
+
+.card6 h1{
+    text-align:center;
+    color:darkorange;
+    text-shadow:1px 1px 2px black;
+}
+
+.card6 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card6 button{
+    margin-left:45px;
+}
+
+
+/* Card 7 */
+
+.card7{
+    border:2px dotted deeppink;
+    border-radius:18px;
+    box-shadow:0 0 10px 4px pink;
+}
+
+.card7 h1{
+    text-align:center;
+    color:deeppink;
+    text-shadow:1px 1px 2px black;
+}
+
+.card7 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card7 button{
+    margin-left:45px;
+}
+
+
+/* Card 8 */
+
+.card8{
+    border:2px dashed teal;
+    border-radius:12px;
+    box-shadow:0 0 10px 4px cyan;
+}
+
+.card8 h1{
+    text-align:center;
+    color:teal;
+    text-shadow:1px 1px 2px black;
+}
+
+.card8 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card8 button{
+    margin-left:45px;
+}
+
+
+/* Card 9 */
+
+.card9{
+    border:2px solid goldenrod;
+    border-radius:30px;
+    box-shadow:0 0 10px 4px gold;
+}
+
+.card9 h1{
+    text-align:center;
+    color:goldenrod;
+    text-shadow:1px 1px 2px black;
+}
+
+.card9 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card9 button{
+    margin-left:45px;
+}
+
+
+/* Card 10 */
+
+.card10{
+    border:2px solid gray;
+    border-radius:50px;
+    box-shadow:0 0 10px 4px silver;
+}
+
+.card10 h1{
+    text-align:center;
+    color:black;
+    text-shadow:1px 1px 2px gray;
+}
+
+.card10 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card10 button{
+    margin-left:45px;
+}
+.card11{
+    border:2px solid darkgreen;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:12px;
+    box-shadow:0 0 10px 4px lightgreen;
+    display:inline-block;
+}
+
+.card11 h1{
+    text-align:center;
+    color:darkgreen;
+    text-shadow:1px 1px 2px black;
+}
+
+.card11 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card11 button{
+    margin-left:45px;
+}
+
+.card12{
+    border:2px dashed orange;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:20px;
+    box-shadow:0 0 10px 4px orange;
+    display:inline-block;
+}
+
+.card12 h1{
+    text-align:center;
+    color:orangered;
+    text-shadow:1px 1px 2px black;
+}
+
+.card12 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card12 button{
+    margin-left:45px;
+}
+
+.card13{
+    border:2px dotted gray;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:5px;
+    box-shadow:0 0 10px 4px silver;
+    display:inline-block;
+}
+
+.card13 h1{
+    text-align:center;
+    color:gray;
+    text-shadow:1px 1px 2px black;
+}
+
+.card13 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card13 button{
+    margin-left:45px;
+}
+
+.card14{
+    border:2px solid navy;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:25px;
+    box-shadow:0 0 10px 4px skyblue;
+    display:inline-block;
+}
+
+.card14 h1{
+    text-align:center;
+    color:navy;
+    text-shadow:1px 1px 2px black;
+}
+
+.card14 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card14 button{
+    margin-left:45px;
+}
+
+.card15{
+    border:2px dashed deeppink;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:18px;
+    box-shadow:0 0 10px 4px pink;
+    display:inline-block;
+}
+
+.card15 h1{
+    text-align:center;
+    color:deeppink;
+    text-shadow:1px 1px 2px black;
+}
+
+.card15 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card15 button{
+    margin-left:45px;
+}
+
+.card16{
+    border:2px solid brown;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px 4px burlywood;
+    display:inline-block;
+}
+
+.card16 h1{
+    text-align:center;
+    color:brown;
+    text-shadow:1px 1px 2px black;
+}
+
+.card16 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card16 button{
+    margin-left:45px;
+}
+
+.card17{
+    border:2px dotted blue;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:30px;
+    box-shadow:0 0 10px 4px lightblue;
+    display:inline-block;
+}
+
+.card17 h1{
+    text-align:center;
+    color:blue;
+    text-shadow:1px 1px 2px black;
+}
+
+.card17 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card17 button{
+    margin-left:45px;
+}
+
+.card18{
+    border:2px solid green;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:15px;
+    box-shadow:0 0 10px 4px lime;
+    display:inline-block;
+}
+
+.card18 h1{
+    text-align:center;
+    color:green;
+    text-shadow:1px 1px 2px black;
+}
+
+.card18 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card18 button{
+    margin-left:45px;
+}
+
+.card19{
+    border:2px dashed purple;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:22px;
+    box-shadow:0 0 10px 4px violet;
+    display:inline-block;
+}
+
+.card19 h1{
+    text-align:center;
+    color:purple;
+    text-shadow:1px 1px 2px black;
+}
+
+.card19 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card19 button{
+    margin-left:45px;
+}
+
+.card20{
+    border:2px solid crimson;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:35px;
+    box-shadow:0 0 10px 4px pink;
+    display:inline-block;
+}
+
+.card20 h1{
+    text-align:center;
+    color:crimson;
+    text-shadow:1px 1px 2px black;
+}
+
+.card20 p{
+    text-align:justify;
+    font-size:15px;
+}
+
+.card20 button{
+    margin-left:45px;
+}
+.card21{
+    border:2px solid darkred;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:8px;
+    box-shadow:0 0 10px 4px salmon;
+    display:inline-block;
+}
+.card21 h1{
+    text-align:center;
+    color:darkred;
+    text-shadow:1px 1px 2px black;
+}
+.card21 p{
+    text-align:justify;
+    font-size:15px;
+}
+.card21 button{
+    margin-left:45px;
+}
+
+.card22{
+    border:2px dashed hotpink;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:25px;
+    box-shadow:0 0 10px 4px pink;
+    display:inline-block;
+}
+.card22 h1{
+    text-align:center;
+    color:deeppink;
+    text-shadow:1px 1px 2px black;
+}
+.card22 p{
+    text-align:justify;
+    font-size:15px;
+}
+.card22 button{
+    margin-left:45px;
+}
+
+.card23{
+    border:2px dotted black;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:15px;
+    box-shadow:0 0 10px 4px gray;
+    display:inline-block;
+}
+.card23 h1{
+    text-align:center;
+    color:black;
+    text-shadow:1px 1px 2px gray;
+}
+.card23 p{
+    text-align:justify;
+    font-size:15px;
+}
+.card23 button{
+    margin-left:45px;
+}
+
+.card24{
+    border:2px solid blue;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:20px;
+    box-shadow:0 0 10px 4px lightblue;
+    display:inline-block;
+}
+.card24 h1{
+    text-align:center;
+    color:blue;
+    text-shadow:1px 1px 2px black;
+}
+.card24 p{
+    text-align:justify;
+    font-size:15px;
+}
+.card24 button{
+    margin-left:45px;
+}
+
+.card25{
+    border:2px dashed brown;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:30px;
+    box-shadow:0 0 10px 4px burlywood;
+    display:inline-block;
+}
+.card25 h1{
+    text-align:center;
+    color:brown;
+    text-shadow:1px 1px 2px black;
+}
+.card25 p{
+    text-align:justify;
+    font-size:15px;
+}
+.card25 button{
+    margin-left:45px;
+}
+
+.card26{
+    border:2px solid orange;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px 4px gold;
+    display:inline-block;
+}
+.card26 h1{
+    text-align:center;
+    color:darkorange;
+    text-shadow:1px 1px 2px black;
+}
+.card26 p{
+    text-align:justify;
+    font-size:15px;
+}
+.card26 button{
+    margin-left:45px;
+}
+
+.card27{
+    border:2px dotted purple;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:18px;
+    box-shadow:0 0 10px 4px violet;
+    display:inline-block;
+}
+.card27 h1{
+    text-align:center;
+    color:purple;
+    text-shadow:1px 1px 2px black;
+}
+.card27 p{
+    text-align:justify;
+    font-size:15px;
+}
+.card27 button{
+    margin-left:45px;
+}
+
+.card28{
+    border:2px dashed sienna;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:12px;
+    box-shadow:0 0 10px 4px peru;
+    display:inline-block;
+}
+.card28 h1{
+    text-align:center;
+    color:sienna;
+    text-shadow:1px 1px 2px black;
+}
+.card28 p{
+    text-align:justify;
+    font-size:15px;
+}
+.card28 button{
+    margin-left:45px;
+}
+
+.card29{
+    border:2px solid teal;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:22px;
+    box-shadow:0 0 10px 4px turquoise;
+    display:inline-block;
+}
+.card29 h1{
+    text-align:center;
+    color:teal;
+    text-shadow:1px 1px 2px black;
+}
+.card29 p{
+    text-align:justify;
+    font-size:15px;
+}
+.card29 button{
+    margin-left:45px;
+}
+
+.card30{
+    border:2px dotted green;
+    width:160px;
+    padding:10px;
+    margin:15px;
+    border-radius:40px;
+    box-shadow:0 0 10px 4px lightgreen;
+    display:inline-block;
+}
+.card30 h1{
+    text-align:center;
+    color:green;
+    text-shadow:1px 1px 2px black;
+}
+.card30 p{
+    text-align:justify;
+    font-size:15px;
+}
+.card30 button{
+    margin-left:45px;
+}

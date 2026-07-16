@@ -14,6 +14,9 @@ section{
     background-color: hsl(2px, 2px, 2px);
 
     text-align: center;
-    text-decoration: dotted;
+    text-decoration: overline;
     text-transform: capitalize;
+    text-shadow: 2px 2px 2px blue;
+    text-decoration-color: brown;
+    text-
 }
